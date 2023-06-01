@@ -4,8 +4,6 @@
 # run_name contains logfiles and saved models
 # process contains processed data sets
 # if 'root'/'run_name' exists, 'root'/'run_name'_'year'-'month'-'day'-'hour'-'min'-'s' will be used instead.
-root: results/toluene
-run_name: example-run-toluene
 seed: 123                                                                         # model seed
 dataset_seed: 456                                                                 # data set seed
 append: true                                                                      # set true if a restarted run should append to the previous log file
@@ -43,7 +41,7 @@ avg_num_neighbors: auto                                                         
 use_sc: true                                                                      # use self-connection or not, usually gives big improvement
 
 dataset: npz
-dataset_file_name: graphNNresearch/data.npz
+dataset_file_name: data.npz
 
 # npz_fixed_field_keys:
 #   - cell
