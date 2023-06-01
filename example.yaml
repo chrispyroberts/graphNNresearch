@@ -43,7 +43,7 @@ avg_num_neighbors: auto                                                         
 use_sc: true                                                                      # use self-connection or not, usually gives big improvement
 
 dataset: npz
-dataset_file_name: data.npz
+dataset_file_name: graphNNresearch/data.npz
 
 # npz_fixed_field_keys:
 #   - cell
